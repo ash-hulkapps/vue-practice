@@ -15,5 +15,5 @@ let app = new Vue({
             fontFamily: "Inter",
             fontWeight: '300'
         }
-    },
+    }
 });
