@@ -14,21 +14,6 @@ let app = new Vue({
             textDecoration: 'underline',
             fontFamily: "Inter",
             fontWeight: '300'
-        },
-        variantsStyle: [
-            {
-                variantId: 555,
-                backgroundColor: "red",
-                height: "50px",
-                width: "50px",
-                marginBottom: "10px"
-            },
-            {
-                variantId: 556,
-                backgroundColor: "blue",
-                height: "50px",
-                width: "50px",
-            }
-        ]
+        }
     }
 });
