@@ -7,15 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-<div id="app">
-    <img :src="image">
-    <p v-if="inStock">In Stock</p>
-    <p v-else>Out of Stock</p>
-    <ul>
-        <li :style="[styleObject, styleObject2]" v-for="detail in details">{{ detail }}</li>
-    </ul>
-</div>
-
+    <div id="app">
+        <img :src="image">
+        <p v-if="inStock">In Stock</p>
+        <p v-else>Out of Stock</p>
+        <ul>
+            <li :style="[styleObject, styleObject2]" v-for="detail in details">{{ detail }}</li>
+        </ul>
+    </div>
     <script src="https://unpkg.com/vue"></script>
     <script src="./main.js"></script>
 </body>
