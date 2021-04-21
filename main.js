@@ -41,5 +41,6 @@ let app = new Vue({
                 return false
             this.cart -= 1;
         }
+        }
     }
 });
